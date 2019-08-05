@@ -1,0 +1,132 @@
+header.container {
+  position: relative;
+  left:0;
+  transform:translate(0);
+}
+a {
+  color:black;
+}
+a:active {
+  color:black;
+}
+a:hover {
+  text-decoration: none;
+}
+.current {
+  background:black;
+  color:white;
+  font-weight: 900;
+}
+.category-item {
+  display: none;
+}
+.current-category-item {
+  display: flex;
+}
+main.container {
+  margin:5rem auto;
+  max-width:1280px;
+}
+main .category ul {
+  text-align: center;
+}
+main .category ul li {
+  width:auto;
+  display: inline-block;
+  width:15rem;
+  border:1px solid black;
+  padding:20px 0;
+  border-radius:10px;
+  margin:.5rem .5rem;
+}
+main .category-item {
+  margin:5rem auto 0 auto;
+}
+main .category-item h2 {
+  font-size:3.125rem;
+  font-weight:700;
+}
+main .category-item ol li {
+  font-size:1.5rem;
+  margin-bottom:4rem;
+}
+main .CONTACT *{
+  display: block;
+}
+main .CONTACT input,textarea {
+  width:100%;
+  border:1px solid gray;
+}
+main .CONTACT .email,.subject {
+  margin-bottom:4rem;
+}
+main .CONTACT h2 {
+  margin-bottom:2rem;
+}
+main .CONTACT p {
+  font-size:1.5rem;
+}
+main .CONTACT .description {
+  margin-bottom:4rem;
+}
+main .CONTACT button {
+  margin-top:1rem;
+  width:50%;
+  padding:1rem 0;
+  border:none;
+  background:#304EB9;
+  color:white;
+  font-weight:700;
+  font-size: 1.5rem;
+}
+main .CONTACT .submit {
+  margin-top:1rem;
+  width:100%;
+  padding:1rem 0;
+  border:none;
+  background:#585B64;
+  color:white;
+  font-weight:700;
+  font-size: 1.5rem;
+}
+main .CONTACT form {
+  margin-bottom:10rem;
+}
+
+main .DOWNLOAD h2{
+  margin-bottom:4rem;
+}
+main .DOWNLOAD .manual {
+  margin-bottom:9rem;
+}
+main .DOWNLOAD p{
+  font-size:1.5rem;
+}
+main .DOWNLOAD span {
+  color:blue;
+  cursor: pointer;
+}
+main .DOWNLOAD span:hover {
+  border-bottom:1px solid blue;
+}
+main .POLICY h2 {
+  margin-bottom:4rem;
+}
+main .POLICY p {
+  font-size:1.5rem;
+}
+main .POLICY span{
+  font-weight:700;
+}
+@media (max-width:576px) {
+  main .category ul li {
+    width:44.5%;
+    margin:.4rem;
+  }
+  main .CONTACT button {
+    width:100%;
+  }
+  main .category-item ol li {
+    margin-bottom:2rem;
+  }
+}

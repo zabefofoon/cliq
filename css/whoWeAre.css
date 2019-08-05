@@ -1,0 +1,39 @@
+header.container {
+  position: relative;
+  left:0;
+  transform:translate(0);
+}
+main.container {
+  padding:5rem 15px;
+  margin:0 auto;
+  max-width:1280px;
+}
+main figure {
+  position: relative;
+}
+main figure img {
+  width:100%;
+}
+main figcaption {
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  font-size:4rem;
+  color:#777777;
+  font-style: italic;
+  width:100%;
+  text-align: center;
+}
+main .textwrap {
+  margin-top:5rem;
+}
+main .textwrap p {
+  font-size:1.5rem;
+  color:#141414;
+}
+@media (max-width:576px) {
+  main figcaption {
+    font-size:2rem;
+  }
+}

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../font/NunitoSans-Black.woff") format("woff");
+  font-weight:900;
+  font-style:normal;
+}
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../font/NunitoSans-BlackItalic.woff") format("woff");
+  font-weight:900;
+  font-style:italic;
+}
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../font/NunitoSans-Bold.woff") format("woff");
+  font-weight:700;
+  font-style:normal;
+}
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../font/NunitoSans-BoldItalic.woff") format("woff");
+  font-weight:700;
+  font-style:italic;
+}
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../font/NunitoSans-Light.woff") format("woff");
+  font-weight:300;
+  font-style:normal;
+}
+@font-face {
+  font-family: "NunitoSans";
+  src: url("../font/NunitoSans-LightItalic.woff") format("woff");
+  font-weight:300;
+  font-style:italic;
+}
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("../font/NotoSansKR-Medium.woff2") format("woff2"),
+       url("../font/NotoSansKR-Medium.woff") format("woff"),
+       url("../font/NotoSansKR-Medium.otf") format("opentype");
+  font-weight:400;
+  font-style:normal;
+}

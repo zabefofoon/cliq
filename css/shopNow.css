@@ -1,0 +1,57 @@
+header.container {
+  position: relative;
+  left:0;
+  transform:translate(0);
+}
+
+main.container {
+  max-width:1280px;
+  margin:5rem auto;
+  font-size:2.25rem;
+}
+main h2 {
+  font-weight: 900;
+}
+main .box {
+  width:40px;
+  height:5px;
+  background: black;
+  margin:4.5rem 0;
+}
+main .naver {
+  position: relative;
+}
+main .col-12 {
+  margin-bottom:240px;
+}
+main .naver img {
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+main .smartStore {
+  display: inline-block;
+  margin:0;
+  margin-left:140px;
+}
+main .smartStore span {
+  font-weight: 900;
+}
+
+@media (max-width:576px) {
+  main {
+    font-size:1.5rem;
+  }
+  main .box {
+    margin:2rem 0;
+  }
+  main img {
+    width:103px;
+  }
+  main .naver img {
+    width:80px;
+  }
+  main .smartStore {
+    margin-left:100px;
+  }
+}
