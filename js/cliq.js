@@ -2,7 +2,6 @@ $(document).ready(function(){
   //가끔씩 스크롤이 옆으로 넘어가는 경우 초기화
   $(window).on("resize",function(){
     $(window).scrollLeft(0)
-    $(window).scrollTop(0)
   })
   $("img.cliq").css({"margin-top":"100px","opacity":0})
   $("img.cliq").animate({"margin-top":"0px","opacity":1},1500)
