@@ -2,14 +2,14 @@ i.fa-chevron-up {
   position: fixed;
   bottom:50px;
   right:50px;
-  font-size:3rem;
+  font-size:1.8rem;
   border:1px solid white;
   color:white;
   border-radius:100%;
-  width:5rem;
-  height:5rem;
+  width:3rem;
+  height:3rem;
   text-align: center;
-  line-height: 4.5rem;
+  line-height: 3rem;
   z-index: 99;
   background: rgba(20, 20, 20, .2);
   cursor: pointer;
@@ -23,13 +23,12 @@ h2, h4 {
 .main-margin-top {
   height:120px;
   background: #585B64;
-  max-width:1920px;
+  width:100;
   margin:0 auto;
 }
 .main_wrap{
   width:100%;
   height:800px;
-  max-width: 1920px;
   background: url("../imgs/carousel_1_back.jpg");
   background-size: cover;
 }
@@ -78,12 +77,13 @@ main .main_imgwrap .cliq_img {
   text-align: center;
   padding:160px 0;
 }
-#sec2,#sec3,#sec4,#sec5,#sec6,#sec7, #sec8, #sec9, #sec12, #sec13 {
+#sec2,#sec3,#sec4,#sec5,#sec6, #sec8, #sec9, #sec12, #sec13 {
   background: black;
   color:white;
   max-width:1920px;
   margin:0 auto;
 }
+
 #sec1 h2 {
   font-size:3rem;
 }
@@ -205,8 +205,9 @@ section i {
 
 #sec7 {
   position: relative;
-  background: url("../imgs/sec7_bg.png") no-repeat 50% 50%;
-  background-size: cover;
+  color:white;
+  max-width:1920px;
+  margin:0 auto;
 }
 #sec7 ._col {
   position: relative;
@@ -319,11 +320,13 @@ section i {
 #sec9 .mobile {
   display: none;
 }
+.secwrap-gradient {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 59.68%), #343542;
+}
 #sec10 {
   max-width:1920px;
   margin:0 auto;
   height:1200px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 59.68%), #343542;
   color:white;
   padding-top:120px;
   position: relative;
@@ -406,8 +409,7 @@ section i {
 
 #sec12 {
   position: relative;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), #343542;
-  background-size: cover;
+  background: none;
 }
 #sec12 .row {
   height: 700px;
@@ -469,10 +471,9 @@ section i {
   margin-bottom:1em;
 }
 
-#sec14 {
+#sec14,#sec14-1 {
   max-width: 1920px;
   margin:0 auto;
-  background: linear-gradient(180deg, #BBBBBB 0%, rgba(209, 209, 209, 0) 54.26%), #D1D1D1;
 }
 #sec14 .bag-row {
   height:540px;
@@ -489,11 +490,11 @@ section i {
   width:80%;
   max-width:449px;
 }
-#sec14 .text-row {
+#sec14-1 .text-row {
   background: white;
   padding:100px 0;
 }
-#sec14 .text-row h2{
+#sec14-1 .text-row h2{
   font-size:3rem;
   padding:0 1rem;
 }

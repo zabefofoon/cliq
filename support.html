@@ -76,9 +76,9 @@
         </h3>
       </div>
       <div class="i_wrap">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-youtube"></i>
+        <a href="https://ko-kr.facebook.com/RideWithRayo"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/ridewithrayo_kor"><i class="fab fa-instagram"></i></a>
+        <a href='https://www.youtube.com/channel/UC6gJvEyVdVitxFWyl1pJsuw'><i class="fab fa-youtube"></i></a>
       </div>
     </div>
     <main class='container'>
@@ -154,14 +154,14 @@
         <div class="col-sm-10 offset-sm-1 manual">
           <h2>MANUAL</h2>
           <p>
-            - Cliq : <span>CLICK HERE</span> to download the manual for Cliq<br/><br/>
-            - Daze : <span>CLICK HERE</span> to download the manual for Daze
+            - Cliq : <a href="https://www.dropbox.com/s/s8gnxbiba0kf7m5/Cliq_pack_manual_190708_preview.pdf?dl=1"><span>CLICK HERE</span></a> to download the manual for Cliq<br/><br/>
+            <i style="display: none;">- Daze : <a href="https://www.dropbox.com/s/s8gnxbiba0kf7m5/Cliq_pack_manual_190708_preview.pdf?dl=1"><span>CLICK HERE</span> to download the manual for Daze</a></i>
           </p>
         </div>
         <div class="col-sm-10 offset-sm-1">
           <h2>PRESS KIT</h2>
           <p>
-            - <span>CLICK HERE</span> for the HAUTEWORKS Press Kit
+            - <a href="https://drive.google.com/drive/folders/0B-TmbbpOmUPATHFNU1lUNGtEeGs?usp=sharing"><span>CLICK HERE</span></a> for the HAUTEWORKS Press Kit
           </p>
         </div>
       </div>
@@ -216,7 +216,23 @@
         currentUrl = url.split("#")[1]
         $(".category-item").removeClass("current-category-item")
         $("."+currentUrl).addClass("current-category-item")
-        location.reload(true);
+
+        if(currentUrl == urlArr[0]){
+            $(".category li").removeClass()
+            $(".category li").eq(0).addClass("current")
+        }
+        if(currentUrl == urlArr[1]){
+            $(".category li").removeClass()
+            $(".category li").eq(1).addClass("current")
+        }
+        if(currentUrl == urlArr[2]){
+            $(".category li").removeClass()
+            $(".category li").eq(2).addClass("current")
+        }
+        if(currentUrl == urlArr[3]){
+            $(".category li").removeClass()
+            $(".category li").eq(3).addClass("current")
+        }
       }
     </script>
     <footer class='container-fluid'>
@@ -264,9 +280,9 @@
           <div class="textwrap">
             <h4>SOCIAL</h4>
             <ul>
-              <li>Facebook</li>
-              <li>instagram</li>
-              <li>Youtube</li>
+              <a href="https://ko-kr.facebook.com/RideWithRayo"><li>Facebook</li></a>
+              <a href="https://www.instagram.com/ridewithrayo_kor"><li>instagram</li></a>
+              <a href="https://www.youtube.com/channel/UC6gJvEyVdVitxFWyl1pJsuw"><li>Youtube</li></a>
             </ul>
           </div>
         </div>

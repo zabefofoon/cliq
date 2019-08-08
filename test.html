@@ -1,0 +1,19 @@
+<script type="text/javascript">
+  var vids = $("video");
+  $.each(vids, function(){
+         this.controls = false;
+  });
+  //Loop though all Video tags and set Controls as false
+
+  $("video").click(function() {
+    //console.log(this);
+    if (this.paused) {
+      this.play();
+    } else {
+      this.pause();
+    }
+  });
+</script>
+<video width="800" autoplay controls="false">
+  <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+</video>

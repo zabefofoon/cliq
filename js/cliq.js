@@ -4,7 +4,7 @@ $(document).ready(function(){
     $(window).scrollLeft(0)
   })
   $("img.cliq").css({"margin-top":"100px","opacity":0})
-  $("img.cliq").animate({"margin-top":"0px","opacity":1},1500)
+  $("img.cliq").animate({"margin-top":"30px","opacity":1},1500)
   var hide45 = $(".45hide").height()
   $(".45hide").css({"overflow":"hidden","height":"0px"})
   var count_45 = 0;
