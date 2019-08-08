@@ -11,13 +11,15 @@ header.container {
 .logo-div {
   position:relative;
 }
-
 .logo-div span {
   position:absolute;
   top:50%;
   transform:translateY(-50%);
   font-weight:900;
   font-size:1.3rem;
+}
+.logo {
+  width:15rem;
 }
 .menu-div ul {
   font-size:0;
@@ -31,7 +33,7 @@ header.container {
   position:absolute;
   top:50%;
   transform:translateY(-50%);
-  color:black;
+  color:white;
 }
 .menu-div ul li a:hover {
   text-decoration: none;
@@ -39,7 +41,7 @@ header.container {
 .menu-div ul li:nth-child(4) a{
   width:inherit;
   text-align:center;
-  border:1px solid black;
+  border:1px solid white;
   font-size:.9em;
   padding:5px 0;
 }
@@ -65,6 +67,7 @@ footer .row .footer-item .textwrap {
 footer .row .footer-item .textwrap h4 {
   font-size:1.6em;
   font-weight:700;
+  line-height: 3rem;
 }
 footer .row .footer-item .textwrap ul li{
   font-size:1.2em;
@@ -86,8 +89,18 @@ footer .row .footer-item .textwrap ul li{
     font-size:16px;
   }
   header.container {
-    padding:0 15px;
+    padding:10px 15px;
+    height:auto;
     position: fixed;
+    margin:0;
+  }
+  header.container .row {
+    height:auto;
+  }
+  .logo {
+    width:10rem;
+    position: absolute;
+    top:.5rem;
   }
   .menu-div {
     display:none;
@@ -97,9 +110,13 @@ footer .row .footer-item .textwrap ul li{
     text-align:right;
   }
   .mobile-menu-div .img-wrap {
-    height:3em;
     position:relative;
   }
+    .mobile-menu-div .img-wrap img {
+      position: absolute;
+      top:50%;
+      transform:translate(-50%);
+    }
   .mobile-menu-div .menu-bar {
     width:2em;
     position: absolute;
@@ -124,7 +141,7 @@ footer .row .footer-item .textwrap ul li{
 
   .mobile-menu-tab-div .menu_item h3 {
     font-weight:700;
-    font-size:1.7em;
+    font-size:1.2rem;
     margin:0;
   }
   .mobile-menu-tab-div .menu_item_1 .menu_item_header {

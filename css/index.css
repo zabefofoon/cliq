@@ -1,3 +1,4 @@
+
 main.container-fluid {
   width:100%;
   margin:0 auto;
@@ -59,7 +60,7 @@ section.container .carousel-indicators li {
   margin-bottom:100px;
 }
 #mc_embed_signup label {
-  font-size:1.6em;
+  font-size:1.2em;
   font-weight:300;
 }
 #mce-EMAIL {
@@ -76,6 +77,14 @@ section.container .carousel-indicators li {
   background: #0B234F;
 }
 @media (max-width:576px) {
+  header.container {
+    position: absolute;
+  }
+  main .carousel-item {
+    position: relative;
+    height:680px;
+    overflow: hidden;
+  }
   .sec_img_2 {
     margin:15px 0;
   }
@@ -86,5 +95,8 @@ section.container .carousel-indicators li {
   main .mobile {
     opacity:1;
     width:80%;
+  }
+  section.container {
+    margin:1rem auto;
   }
 }
